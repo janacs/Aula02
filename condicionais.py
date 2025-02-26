@@ -13,6 +13,12 @@ senha_digitada = input("Digite a senha: ")
 # < menor
 # <= menor ou igual
 
+""" Operadores Booleanos
+&& AND
+|| OR
+! NOT
+"""
+
 if senha_digitada == senha and email_digitado == email:
     print("Logado com sucesso!")
     
