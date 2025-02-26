@@ -15,5 +15,8 @@ senha_digitada = input("Digite a senha: ")
 
 if senha_digitada == senha and email_digitado == email:
     print("Logado com sucesso!")
+    
+elif senha_digitada != senha:
+    print("Senha Incorreta")
 else:
     print("Credenciais Inválidas")
